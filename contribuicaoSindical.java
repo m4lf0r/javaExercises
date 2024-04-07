@@ -19,7 +19,6 @@ public class Main
 		} while(salario < SALARIO_MINIMO);
 		
 		do {
-		  
 		    System.out.println("Você é contribuinte sindical? (0 Para NÃO) (1 Para SIM)");
 		    contribuinte = scanner.nextInt();
 		    if (contribuinte != 0 && contribuinte != 1) {
@@ -36,7 +35,7 @@ public class Main
 		    System.out.printf("valor do salário liquido mensal: R$%.2f\n", (salario - calculoContribuicao));
 		} else {
 		    System.out.println("valor da contribuição sindical: NÃO CONTRIBUINTE");
-            System.out.printf("valor do salário líquido mensal: R$%.2f\n", salario);
+		    System.out.printf("valor do salário líquido mensal: R$%.2f\n", salario);
 		}
 		
 	}
