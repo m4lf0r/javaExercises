@@ -18,9 +18,9 @@ public class Main
 	    consumoComercial = 0;
 	    consumoIndustrial = 0;
 	    valorResidencial = 0;
-        valorComercial = 0;
-        valorIndustrial = 0;
-        valorTotal = 0;
+	    valorComercial = 0;
+            valorIndustrial = 0;
+	    valorTotal = 0;
 	    
 		System.out.println("Consumo de energia");
 		
