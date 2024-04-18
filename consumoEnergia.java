@@ -18,9 +18,9 @@ public class Main
 	    consumoComercial = 0;
 	    consumoIndustrial = 0;
 	    valorResidencial = 0;
-	    valorComercial = 0;
-            valorIndustrial = 0;
-	    valorTotal = 0;
+        valorComercial = 0;
+        valorIndustrial = 0;
+        valorTotal = 0;
 	    
 		System.out.println("Consumo de energia");
 		
@@ -54,15 +54,12 @@ public class Main
 		        
 		        if(tipoImovel == 'R'){
 		            consumoResidencial += valorAtual - valorAnterior;
-		            
 		            residencial++;
 		        }else if(tipoImovel == 'C'){
 		            consumoComercial += valorAtual - valorAnterior;
-		            valorComercial = consumoComercial * VALOR_COMERCIAL;
 		            comercial++;
 		        }else if(tipoImovel == 'I'){
 		            consumoIndustrial += valorAtual - valorAnterior;
-		            valorIndustrial = consumoIndustrial * VALOR_INDUSTRIAL;
 		            industrial++;
 		        }
         	}
